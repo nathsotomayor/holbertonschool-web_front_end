@@ -1,0 +1,13 @@
+/* mixin_margins. */
+@mixin marg_mix($size) {
+  margin-left: $size;
+  margin-right: $size;
+}
+
+body {
+  @include marg_mix(10px);
+}
+
+div {
+  @include marg_mix(15px);
+}
